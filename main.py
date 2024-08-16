@@ -11,3 +11,6 @@ while user == 0:
 print("Saiu do loop")
 
 #Funcionalidade multiplicação até 10
+user = int(input("Insira um número: "))
+for i in range(0, user):
+  print(f"{user} x {i} = {user*i}")
